@@ -1,4 +1,5 @@
 SMS Spam/Not Spam Detection
+[https://docs.google.com/presentation/d/1Gg12vLS5Qb8_-6S4o3nOtRifvhxqbhThTf1E9wtiQcs/edit#slide=id.g2ec671fa341_0_259](url)
 
 This project focuses on developing a machine learning model to automatically classify SMS messages as either "spam" or "ham" (not spam). Leveraging a dataset from Kaggle, which consists of 5,560 SMS messages, this project tackles the challenge of identifying unwanted or malicious content in text messages. The dataset is imbalanced, with 13% of the messages labeled as spam and 87% as ham, reflecting real-world scenarios where most messages are legitimate.
 The core of this project is the implementation of the Naive Bayes classifier, a probabilistic machine learning algorithm that is particularly effective for text classification tasks. Naive Bayes is favored for its simplicity and speed, making it a popular choice for spam filtering, sentiment analysis, and other natural language processing tasks. Despite its assumption that features are independent—a condition rarely met in real-world data—Naive Bayes remains highly effective in many applications due to its robustness and ease of interpretation.
